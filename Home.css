@@ -230,28 +230,32 @@ body {
 .inp {
   color: #999999;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   background: none;
   border: none;
   float: left;
-  letter-spacing: 0.5px;
   line-height: 18px;
+  letter-spacing: 0.5px;
   margin-left: 28px;
-  padding: 0;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  
 }
+
 .lefty {
   color: #999999;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   background: none;
   border: none;
-  float: right;
-  margin-right: 28px;
-  padding: 0;
-  line-height: 18px;
   letter-spacing: 0.5px;
+  float: right;
+  line-height: 18px;
+  margin-right: 28px;
+  padding-right: 40px;
+  padding-bottom: 50px;
 }
 .inp:hover {
   color: #3f3f3f;
@@ -259,22 +263,25 @@ body {
 .lefty:hover {
   color: #3f3f3f;
 }
-.imgs {
-  display: inline-block;
+.imgs img{
+  display: inline;
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 .load-more {
   background-color: #fff;
   border: 1px solid #636363;
   color: #636363;
-  display: inline-block;
+  display: inline;
   font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  height: 40px;
+  font-size: 10px;
+  font-weight: 590;
+  text-align: center;
   padding: 8px 50px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-
+  margin: 50px 50%;
 }
 .load-more:hover {
   background-color: #3f3f3f;
