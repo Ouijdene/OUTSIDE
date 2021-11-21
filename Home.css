@@ -240,7 +240,6 @@ body {
   margin-left: 28px;
   padding-left: 40px;
   padding-bottom: 50px;
-  
 }
 
 .lefty {
@@ -270,6 +269,7 @@ body {
   margin-left: 40px;
 }
 .load-more {
+  margin: 0;
   background-color: #fff;
   border: 1px solid #636363;
   color: #636363;
@@ -281,7 +281,9 @@ body {
   padding: 8px 50px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin: 50px 50%;
+  margin: 50px 500px;
+  height: 60;
+
 }
 .load-more:hover {
   background-color: #3f3f3f;
