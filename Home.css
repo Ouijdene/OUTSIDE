@@ -1,64 +1,52 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-body {
   background-color: white;
+  margin: 0;
   font-family: "Catamaran", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
 }
-.nav {
-  justify-content: space-between;
+.body {
+}
+.navbar {
+  text-transform: uppercase;
+  margin: 30px 50px;
+  display: flex;
   align-items: center;
-  padding: 30px 70px;
-}
-.menu {
-  list-style: none;
-  /* display: inline-block; */
-  float: right;
-  font-weight: 500;
-}
-.menu li {
-  display: inline-block;
-  padding: 14px 20px;
-}
-.menu li a {
-  text-decoration: none;
-  color: #3f3f3f;
-}
-.menu li a:hover {
-  color: black;
+  justify-content: space-between;
 }
 .logo {
-  display: inline-block;
-  font-size: 30px;
+  color: rgb(90, 87, 87);
+  font-size: 28px;
   font-weight: 900;
 }
-.icons {
+.nav_menu {
+  font-size: 12px;
+  font-weight: 600;
+  list-style: none;
+}
+.nav_menu li {
+  float: right;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.nav_menu li a {
+  text-decoration: none;
+  color: #999999;
+}
+.nav_menu li a:hover {
+  color: rgb(90, 87, 87);
+}
+.nav_icons {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  float: right;
-  padding-left: 50px;
 }
-.icons li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20px;
-  width: 20px;
-  margin: 0 10px;
-  padding: 14px 3px;
+.nav_icons li {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 15px;
+  color: #999999;
 }
-.icons li a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
+
 .mySlide {
   float: right;
 }
@@ -262,7 +250,7 @@ body {
 .lefty:hover {
   color: #3f3f3f;
 }
-.imgs img{
+.imgs img {
   display: inline;
   width: 20%;
   margin-top: 50px;
@@ -283,7 +271,6 @@ body {
   letter-spacing: 0.5px;
   margin: 50px 500px;
   height: 60;
-
 }
 .load-more:hover {
   background-color: #3f3f3f;
