@@ -130,7 +130,7 @@
 }
 .filter li {
   list-style: none;
-  padding: 10px 30px;
+  padding: 10px 50px;
 }
 .filter li a {
   text-decoration: none;
@@ -142,29 +142,25 @@
 .filter li a:hover {
   color: #3f3f3f;
 }
-
-
+.product_imgs {
+  margin: 0 35px;
+}
 .product_imgs img {
   display: inline;
-  width: 20%;
-  margin-top: 50px;
-  margin-left: 40px;
+  width: 22.45%;
+  padding: 40px 13px;
 }
 .load_button {
-  margin: 0;
-  background-color: #fff;
   border: 1px solid #636363;
-  color: #636363;
-  display: inline;
   font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  font-weight: 590;
-  text-align: center;
-  padding: 8px 50px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin: 50px 500px;
-  height: 60;
+  color: #636363;
+  background-color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 8px 50px;
+  height: 40;
+  margin: 20px 560px;
 }
 .load-button:hover {
   background-color: #3f3f3f;
