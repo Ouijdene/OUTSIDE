@@ -237,7 +237,7 @@
   float: left;
   position: absolute;
   left: 72%;
-  width: 150%;
+  width: 20%;
   bottom: 45px;
   margin-bottom: -35px;
 }
@@ -260,7 +260,7 @@
 .subscribe {
   position: absolute;
   top: 43px;
-  left:190px;
+  left:180px;
   border: none;
   background-color: transparent;
   color: #a3a3a3;
